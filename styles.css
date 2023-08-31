@@ -1,0 +1,85 @@
+
+/* Styling for the ordered list */
+
+/* Define styles for the page title */
+
+/* Define styles for the page title */
+.pageTitle {
+  color: hsl(332, 89%, 63%);
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  /* Additional styles for background and padding */
+  background-color: #4cbb8d; /* Change background color */
+  padding: 10px; /* Add padding around the title */
+
+  h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+/* /* 3-column grid using 840px full width */
+.grid3col .column { width: 260px; margin-left: 30px; }
+.column { float: left; }
+.column.first, .column.last { margin-left: 0 !important; }
+.column.last { float: right !important; }Style the <ol> and <ul> elements */
+ol, ul {
+  outline-color: white(355, 80%, 56%);
+  margin-left: 40px;
+  list-style-type: bold;
+}
+
+/* Style the <li> elements */
+li {
+  margin: 5px 0;
+}
+ol {
+  color: blue; /* Change the text color */
+}
+
+/* Styling for the unordered list */
+ul {
+  color: #80000b; /* Change the text color */
+}
+
+/* Set the background color of the page */
+body {
+  background-color: white;
+}
+outer {
+  border: 2px solid red;
+  width: 300px;
+  display: contents;
+}
+
+.outer > div {
+  border: 1px solid green;
+}
+.box {
+  background-color: rgb(224, 206, 247);
+  border: 5px solid rebeccapurple;
+  display: flow-root;
+}
+
+.float {
+  float: left;
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+/* Additional styles can be placed here */
+/* For example, you can add more styles for different elements */
+
+
+
+
+
+
+
+
+
+
+
